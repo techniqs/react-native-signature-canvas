@@ -52,9 +52,11 @@ class SignatureView extends Component {
   };
 
   getSignature = e => {
-    const { onOK, onEmpty } = this.props;
+    const { onOK, onEmpty, onClear } = this.props;
     if (e.nativeEvent.data === "EMPTY") {
       onEmpty();
+    } else if (e.nativeEvent.data === "CLEAR") {
+      onClear();
     } else {
       onOK(e.nativeEvent.data);
     }

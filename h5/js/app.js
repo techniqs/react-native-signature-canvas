@@ -25,6 +25,7 @@ const content = `
     
     clearButton.addEventListener("click", function (event) {
         signaturePad.clear();
+        window.postMessage("CLEAR");
     });
     
     saveButton.addEventListener("click", function (event) {

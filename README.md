@@ -1,3 +1,5 @@
+# Forked to add clearHandler for version 1.4.2
+
 # react-native-signature-canvas
 
 [![](https://img.shields.io/npm/l/react-native-signature-canvas.svg)](https://www.npmjs.com/package/react-native-signature-canvas)
